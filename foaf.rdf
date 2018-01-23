@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:doap="http://usefulinc.com/ns/doap#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:rss="http://purl.org/rss/1.0/"
+      xmlns:schema="http://schema.org/">
+  
+  <foaf:PersonalProfileDocument rdf:about="https://sean.petiya.com/foaf.rdf">
+    <dc:title>Sean Petiya | FOAF</dc:title>
+    <dcterms:modified>2016-02-07</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="http://sean.petiya.com/#me"/>
+    <rdfs:seeAlso rdf:resource="http://sean.petiya.tel"></rdfs:seeAlso>
+</foaf:PersonalProfileDocument>
+  
+  <foaf:Person rdf:about="http://sean.petiya.com/#me">
+
+    <foaf:name>Sean Petiya</foaf:name>
+    <foaf:homepage rdf:resource="http://sean.petiya.com"/>
+    <foaf:skypeID>sean.petiya</foaf:skypeID>
+    <foaf:img rdf:resource="http://2.gravatar.com/avatar/c96262bf99a02f2d5825e53d0c56f2fa"></foaf:img>
+    <foaf:mbox_sha1sum>ce6428a2c1f7eb8d7c9b6d738ac1d68dd55d05b3</foaf:mbox_sha1sum>
+    
+    <!-- SAMEAS -->
+
+    <owl:sameAs rdf:resource="http://dblp.uni-trier.de/pers/p/Petiya:Sean"></owl:sameAs>
+    <owl:sameAs rdf:resource="http://orcid.org/0000-0001-5704-1346"></owl:sameAs>
+    <owl:sameAs rdf:resource="http://plus.google.com/+SeanPetiya"></owl:sameAs>
+    <owl:sameAs rdf:resource="http://researcherid.com/rid/J-6069-2014"></owl:sameAs>
+    
+    <!-- ACCOUNTS -->
+
+    <foaf:account>
+      <foaf:OnlineAccount rdf:about="http://github.com/SeanPetiya">
+        <foaf:name>GitHub</foaf:name>
+        <foaf:accountServiceHomePage rdf:resource="http://github.com"></foaf:accountServiceHomePage>
+        <foaf:accountProfilePage rdf:resource="http://github.com/seanpetiya"></foaf:accountProfilePage>
+        <rdfs:seeAlso>
+          <rss:channel rdf:about="http://github.com/seanpetiya.atom">
+            <dc:title>GitHub Public Activity Feed (RSS)</dc:title>
+            <dcterms:format rdf:resource="http://www.iana.org/assignments/media-types/application/atom+xml"></dcterms:format>
+          </rss:channel>
+        </rdfs:seeAlso>
+      </foaf:OnlineAccount>
+    </foaf:account>
+
+    <foaf:account>
+      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/in/seanpetiya">
+        <foaf:name>LinkedIn</foaf:name>
+        <foaf:accountServiceHomePage rdf:resource="http://linkedin.com"></foaf:accountServiceHomePage>
+        <foaf:accountProfilePage rdf:resource="http://www.linkedin.com/in/seanpetiya"></foaf:accountProfilePage>
+      </foaf:OnlineAccount>
+    </foaf:account>
+
+    <!-- PROJECTS -->
+
+    <foaf:currentProject>
+      <foaf:Project rdf:about="http://comicmeta.org">
+        <dc:title>comicmeta.org</dc:title>
+        <dc:description>Metadata for comic books and comic book collections.</dc:description>
+        <foaf:homepage rdf:resource="http://comicmeta.org"></foaf:homepage>
+        <doap:repository>
+          <doap:GitRepository rdf:about="http://github.com/comicmeta/ComicBookSchema"></doap:GitRepository>
+        </doap:repository>
+      </foaf:Project>
+    </foaf:currentProject>
+
+    <foaf:currentProject>
+      <foaf:Project rdf:about="http://comicmeta.org/cbo">
+        <dc:title>Comic Book Ontology</dc:title>
+        <dc:description>A metadata vocabulary for describing comic books and comic book collections.</dc:description>
+        <foaf:homepage rdf:resource="http://comicmeta.org/cbo"></foaf:homepage>
+        <doap:repository>
+          <doap:GitRepository rdf:about="http://github.com/comicmeta/ComicBookOntology"></doap:GitRepository>
+        </doap:repository>
+        <rdfs:seeAlso rdf:resource="http://lov.okfn.org/dataset/lov/vocabs/cbo"></rdfs:seeAlso>
+      </foaf:Project>
+    </foaf:currentProject>
+
+    <foaf:currentProject>
+      <foaf:Project rdf:about="http://github.com/comicmeta/ComicBookSchema">
+        <dc:title>Comic Book Schema</dc:title>
+        <dc:description>An XML schema for implementing the Comic Book Ontology metadata vocabulary.</dc:description>
+        <foaf:homepage rdf:resource="http://comicmeta.org/cbo"></foaf:homepage>
+      </foaf:Project>
+    </foaf:currentProject>
+
+    <foaf:pastProject>
+      <foaf:Project rdf:about="http://lod-lam.slis.kent.edu/">
+        <dc:title>LOD-LAM Research Group at KSU SLIS</dc:title>
+        <dc:description>A research team at the School of Library and Information Science at Kent State University connecting libraries to the unfamiliar data and metadata resources in the Linked Open Data (LOD) Universe.</dc:description>
+        <foaf:homepage rdf:resource="http://lod-lam.slis.kent.edu/"></foaf:homepage>
+      </foaf:Project>
+    </foaf:pastProject>
+    
+    <!-- KNOWS -->
+
+    <foaf:knows>
+      <foaf:Person rdf:about="http://lod-lam.slis.kent.edu/people.html#KarenGracy">
+        <foaf:name>Karen Gracy</foaf:name>
+        <foaf:title>Dr.</foaf:title>
+        <foaf:image rdf:resource="http://lod-lam.slis.kent.edu/images/graceykaren_1.jpg"></foaf:image>
+        <foaf:homepage rdf:resource="http://faculty-l.slis.kent.edu/~kgracy/Index.html"></foaf:homepage>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person rdf:about="http://marciazeng.slis.kent.edu/MarciaZeng.rdf#me">
+        <foaf:name xml:lang="en">Marcia Lei Zeng</foaf:name>
+        <foaf:title>Dr.</foaf:title>
+        <foaf:homepage rdf:resource="http://marciazeng.slis.kent.edu/"/>
+        <foaf:image rdf:resource="http://lod-lam.slis.kent.edu/images/DrZeng.jpg"></foaf:image>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person rdf:about="http://lod-lam.slis.kent.edu/foaf/foaf-lz.rdf#me">
+        <foaf:name xml:lang="en">Ziran Zhang</foaf:name>
+        <foaf:name xml:lang="zh">张自然</foaf:name>
+        <foaf:alternateName>Ziran Zhang 张自然</foaf:alternateName>
+        <foaf:image rdf:resource="http://lod-lam.slis.kent.edu/images/self.jpg"></foaf:image>
+      </foaf:Person>
+    </foaf:knows>
+    
+  </foaf:Person>
+</rdf:RDF>
