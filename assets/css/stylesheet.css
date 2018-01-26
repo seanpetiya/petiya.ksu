@@ -1,0 +1,43 @@
+nav#SubNav {
+    background: rgba(0,57,118,1.0);
+    border-radius:0;
+    border-bottom: 2px solid rgba(239,171,0,1);
+}
+
+nav#SubNav a {
+    color: rgba(239,171,0,1);
+}
+
+nav#SubNav span.icon-bar {
+    background-color: rgba(239,171,0,1);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rgba(239,171,0,1);
+}
+
+
+nav#SubNav ul li.active > a {
+    background: rgba(0,57,118,0.5);
+}
+
+section {
+    margin: 12px;
+    padding: 12px;
+}
+
+img.profile {
+    border: 1px solid #ddd;
+    margin: 6px;
+    padding: 6px;
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.333);
+}
+
+@media (max-width: 770px) {
+    img.profile {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
