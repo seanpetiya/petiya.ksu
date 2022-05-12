@@ -11,15 +11,15 @@
 
   <foaf:PersonalProfileDocument rdf:about="https://www.personal.kent.edu/~spetiya1/foaf.rdf">
     <dc:title>Sean Petiya (KSU)</dc:title>
-    <dcterms:modified>2021-12-07</dcterms:modified>
-    <foaf:primaryTopic rdf:resource="http://personal.kent.edu/~spetiya1/#me"/>
+    <dcterms:modified>2022-05-11</dcterms:modified>
+    <foaf:primaryTopic rdf:resource="https://personal.kent.edu/~spetiya1/#me"/>
     <rdfs:seeAlso rdf:resource="http://sean.petiya.tel"></rdfs:seeAlso>
   </foaf:PersonalProfileDocument>
 
   <foaf:Person rdf:about="https://www.personal.kent.edu/~spetiya1/#me">
 
     <foaf:name>Sean Petiya</foaf:name>
-    <foaf:homepage rdf:resource="http://sean.petiya.com"/>
+    <foaf:homepage rdf:resource="https://sean.petiya.com"/>
     <foaf:skypeID>sean.petiya</foaf:skypeID>
     <foaf:img rdf:resource="http://2.gravatar.com/avatar/c96262bf99a02f2d5825e53d0c56f2fa"></foaf:img>
     <foaf:mbox_sha1sum>ce6428a2c1f7eb8d7c9b6d738ac1d68dd55d05b3</foaf:mbox_sha1sum>
@@ -30,8 +30,8 @@
     <owl:sameAs rdf:resource="http://orcid.org/0000-0001-5704-1346"></owl:sameAs>
     <owl:sameAs rdf:resource="http://plus.google.com/+SeanPetiya"></owl:sameAs>
     <owl:sameAs rdf:resource="http://researcherid.com/rid/J-6069-2014"></owl:sameAs>
-    <owl:sameAs rdf:resource="http://sean.petiya.com/#me"></owl:sameAs>
-    <owl:sameAs rdf:resource="http://sapetiya.people.ysu.edu/#me"></owl:sameAs>
+    <owl:sameAs rdf:resource="https://sean.petiya.com/#me"></owl:sameAs>
+    <owl:sameAs rdf:resource="https://sapetiya.people.ysu.edu/#me"></owl:sameAs>
     <owl:sameAs rdf:resource="http://personal.kent.edu/~spetiya1/#me"></owl:sameAs>
 
 
