@@ -26,7 +26,7 @@
 
     <!-- SAMEAS -->
 
-    <owl:sameAs rdf:resource="http://dblp.uni-trier.de/pers/p/Petiya:Sean"></owl:sameAs>
+    <owl:sameAs rdf:resource="https://dblp.org/pid/155/7228"></owl:sameAs>
     <owl:sameAs rdf:resource="https://orcid.org/0000-0001-5704-1346"></owl:sameAs>
     <owl:sameAs rdf:resource="http://plus.google.com/+SeanPetiya"></owl:sameAs>
     <owl:sameAs rdf:resource="http://researcherid.com/rid/J-6069-2014"></owl:sameAs>
