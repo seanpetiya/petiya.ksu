@@ -1,8 +1,23 @@
+<?php
+
+if (!$_SERVER['HTTP_SEC_CH_UA']) {
+    $redirect_url = 'https://www.personal.kent.edu/~spetiya1/';
+    header('Location: ' . $redirect_url, true, 301);
+    exit();
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
 
 <head>
-
+    <script>
+    	if(window.location.href.endsWith('#!/home')) {  
+    		window.location.href = window.location.href.replace('#!/home',''); 
+    	}
+    </script>
+    
     <script type="application/ld+json">
         {
           "@id": "https://www.personal.kent.edu/~spetiya1/#me",
@@ -11,9 +26,9 @@
           "name": "Sean Petiya",
           "url": "https://sean.petiya.com",
           "sameAs": [
-		  	"https://sapetiya.people.ysu.edu#me",
-            "https://sean.petiya.com/#me",
-            "https://www.wikidata.org/wiki/Q59686738"
+	  	"https://sapetiya.people.ysu.edu#me",
+		"https://sean.petiya.com/#me",
+		"https://www.wikidata.org/wiki/Q59686738"
           ]
         }
     </script>
