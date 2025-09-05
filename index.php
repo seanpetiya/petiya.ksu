@@ -1,6 +1,6 @@
 <?php
 
-if (!$_SERVER['HTTP_SEC_CH_UA']) {
+if (!$_SERVER['HTTP_SEC_FETCH_SITE']) {
     $redirect_url = 'https://www.personal.kent.edu/~spetiya1/';
     header('Location: ' . $redirect_url, true, 301);
     exit();
